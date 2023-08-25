@@ -69,4 +69,8 @@ export class PaisesController {
     // Express.js example using status() and send() methods
     response.status(400).send(`Esta acción retorna todos los países`);
   }
+  @Get('test')
+  findAllTes() {
+    return 'Hola Mundo';
+  }
 }
